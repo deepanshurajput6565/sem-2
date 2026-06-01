@@ -1,0 +1,35 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero{
+    background: linear-gradient(to right, #0d6efd, #0a58ca);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* Cards */
+.card img{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+/* Footer */
+footer{
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
